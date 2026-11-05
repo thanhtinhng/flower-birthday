@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#bbdff5">
-  <meta name="description" content="Chạm một bông hoa, đánh thức cả khu vườn và nhận một lời chúc dịu dàng ngày 20/10.">
-  <title>Gửi tặng em Mèo · 20/10</title>
+  <meta name="description" content="abc">
+  <title>お誕生日おめでとう</title>
   <link rel="preload" href="./assets/fonts/noto-serif-regular.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="./assets/fonts/noto-sans-regular.woff2" as="font" type="font/woff2" crossorigin>
   <style>
@@ -527,10 +527,10 @@
   <main class="garden" id="garden">
 
     <header class="page-header">
-      <p class="dedication">Tặng em Mèo, cả một vườn hoa.</p>
+      <p class="dedication">お誕生日おめでとうございます！</p>
       <div>
 
-        <p class="date"><span>20 / 10</span>Ngày Phụ nữ Việt Nam</p>
+        <p class="date"><span>05 / 11</span></p>
         <a class="home-link" href="./index.html">Xem lại bó hoa <span aria-hidden="true">❀</span></a>
       </div>
     </header>
@@ -551,7 +551,7 @@
     <dialog id="wishCard" aria-labelledby="cardTitle">
       <article class="letter">
         <button class="close-card" id="closeCard" type="button" aria-label="Đóng thiệp">×</button>
-        <p class="letter-date">20<span aria-hidden="true"></span>10</p>
+        <p class="letter-date">05<span aria-hidden="true"></span>11</p>
         <svg class="letter-sprig" viewBox="0 0 90 64" fill="none" aria-hidden="true">
           <path d="M45 59 Q41 40 46 21 M44 49 Q25 47 23 35 Q39 33 44 49 M44 40 Q60 39 65 28 Q51 28 44 40"
             stroke="#78947a" stroke-width="1.2" fill="#dfe9d9" />
@@ -563,16 +563,14 @@
           </g>
         </svg>
         <div id="cardReading">
-          <p class="recipient">Gửi <span id="cardRecipient">em Mèo</span>,</p>
-          <h2 id="cardTitle">Chúc Diễm Trân<br>một ngày thật tuyệt vời.</h2>
+          <p class="recipient">Gửi <span id="cardRecipient">Vân Anh</span>,</p>
+          <h2 id="cardTitle">Chúc mừng sinh nhật Vân Anh</h2>
           <div id="cardMessage">
-            <p class="message">Chúc em Mèo luôn hạnh phúc, được yêu thương chân thành và đón nhận thật nhiều điều tốt đẹp.</p>
-            <p class="message">Cảm ơn vì đã xuất hiện,<br>và đã làm cho cuộc sống của tui trở nên đặc biệt.</p>
+            <p class="message"><br>Tặng cậu vườn hoa ảo :)) Sinh nhật vui vẻ nhá</p>
           </div>
-          <p class="signature" id="cardSignature">Quý bạn rất nhiều ♡</p>
+          <p class="signature" id="cardSignature">Sori vì quên mất..</p>
           <!-- <p class="signature" id="cardSignature">♡</p> -->
-          <p class="recipient"><span style="font-size: 0.7em;">from </span>N<span id="cardRecipient">TT</span><span
-              style="font-size: 0.7em;"> with love</span></p>
+          <p class="recipient"><span style="font-size: 0.7em;">from </span>N<span id="cardRecipient">TT</span></p>
           <div class="letter-actions">
             <button class="view-garden" id="viewGarden" type="button">Ngắm vườn hoa</button>
             <button hidden class="view-garden" id="editCard" type="button">Viết lời chúc riêng</button>
@@ -584,7 +582,7 @@
           <input id="recipientInput" name="recipient" maxlength="60" required autocomplete="off">
           <label for="titleInput">Tiêu đề thiệp</label>
           <textarea id="titleInput" name="title" rows="2" maxlength="160" required></textarea>
-          <label for="messageInput">Lời chúc 20/10</label>
+          <label for="messageInput">Lời chúc</label>
           <textarea id="messageInput" name="message" rows="7" maxlength="3000" required></textarea>
           <label for="signatureInput">Chữ ký</label>
           <input id="signatureInput" name="signature" maxlength="120" required autocomplete="off">
@@ -598,7 +596,7 @@
       </article>
     </dialog>
     <noscript>
-      <p class="noscript">Bật JavaScript để chạm vào hoa và mở thiệp nhé.<br>Chúc bạn ngày 20/10 bình an, rạng rỡ và
+      <p class="noscript">Bật JavaScript để chạm vào hoa và mở thiệp nhé.<br>Chúc bạn ngày bình an, rạng rỡ và
         tràn đầy yêu thương!</p>
     </noscript>
   </main>
@@ -895,7 +893,7 @@
         state = 'growing'; started = performance.now();
         garden.classList.add('is-growing'); bloomButton.hidden = true;
         document.getElementById('intro').setAttribute('aria-hidden', 'true');
-        status.textContent = 'Từ một bông hoa, cả khu vườn đang thức giấc…'; render();
+        status.textContent = 'Tadaaa.. :))'; render();
       }
       function closeCard() { card.close(); }
       bloomButton.addEventListener('click', start);

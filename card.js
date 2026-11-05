@@ -3,8 +3,8 @@
 
   const STORAGE_KEY = 'flower.greeting.20-10.v1';
   const defaultGreeting = {
-    recipient: 'em Mèo',
-    message: 'Hôm nay 20/10, tặng Trân đóa hoa xinh thứ hai vì Trân chính là đóa hoa đẹp nhất.\n\nChúc em Mèo luôn vui vẻ. Mạnh khỏe và thật hạnh phúc.\n\nHôm nay và những ngày về sau, hãy luôn mỉm cười, yêu thương bản thân và tự tin theo đuổi những điều mình mong muốn nhé.',
+    recipient: 'Chủ phòng 502',
+    message: 'Chúc Vân Anh sinh nhật vui vẻ, tuổi mới nhiều niềm vui và luôn xinh đẹp.\n\nHôm trước toi nhớ rồi nhưng đến hôm nay lại quên :)) chỉ có cái này kèm lời chúc Vân Anh nhận nhé',
     sender: 'NTT'
   };
   const dialog = document.getElementById('greetingCard');
@@ -186,7 +186,7 @@
     senderElement.textContent = greeting.sender;
     const loveSpan = document.createElement('span');
     loveSpan.style.fontSize = '0.7em';
-    loveSpan.textContent = ' with love';
+    loveSpan.textContent = '';
     senderElement.appendChild(loveSpan);
   }
 

@@ -68,23 +68,15 @@ const ROSE_PALETTES = {
 /**
  * Friendly, cheerful, non-cheesy 20/10 wishes displayed when roses bloom
  */
-// const WHISPER_NOTES = [
-//   'Chúc bạn Mèo có một ngày 20/10 thật rạng rỡ, với thật nhiều niềm vui và những điều đáng yêu.',
-//   'Mong bạn Mèo luôn gặp được những người chân thành, những điều tử tế và những tình cảm dịu dàng.',
-//   'Chúc bạn Mèo luôn giữ được ánh sáng của riêng mình, dù hôm nay hay bất kỳ ngày nào khác.',
-//   'Mong cuộc sống sẽ dành tặng bạn Mèo thật nhiều khoảnh khắc đẹp, để mỗi lần nhớ lại đều thấy vui.',
-//   'Chúc bạn Mèo can đảm bước về phía những điều mình mong muốn và luôn tự hào về chính mình.',
-//   'Mong những ngày sắp tới sẽ mang đến cho bạn Mèo nhiều niềm vui hơn mong đợi và ít muộn phiền hơn hôm qua.',
-//   'Chúc cô gái tuyệt vời ấy luôn được yêu thương, luôn có người sẻ chia và luôn tìm thấy hạnh phúc trong những điều giản dị.'
-// ];
+
 const WHISPER_NOTES = [
-  'Chúc bạn Mèo có một ngày 20/10 thật rạng rỡ, với thật nhiều niềm vui và những điều đáng yêu.',
-  'Mong bạn Mèo luôn gặp được những người chân thành, những điều tử tế và những tình cảm dịu dàng.',
-  'Chúc bạn Mèo luôn giữ được ánh sáng của riêng mình, dù hôm nay hay bất kỳ ngày nào khác.',
-  'Mong cuộc sống sẽ dành tặng bạn Mèo thật nhiều khoảnh khắc đẹp, để mỗi lần nhớ lại đều thấy vui.',
-  'Chúc bạn Mèo can đảm bước về phía những điều mình mong muốn và luôn tự hào về chính mình.',
-  'Mong những ngày sắp tới sẽ mang đến cho bạn Mèo nhiều niềm vui hơn mong đợi và ít muộn phiền hơn hôm qua.',
-  'Chúc cô gái tuyệt vời ấy luôn được yêu thương, luôn có người sẻ chia và luôn tìm thấy hạnh phúc trong những điều giản dị.'
+  'Sinh nhật vui vẻ',
+  'Sinh nhật đáng iu',
+  'Sinh nhật dễ thương',
+  'Sinh nhật vui vẻ',
+  'Sinh nhật đáng iu',
+  'Sinh nhật dễ thương',
+  'Sinh nhật vui vẻ',
 ];
 
 /**
