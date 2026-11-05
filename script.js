@@ -73,10 +73,10 @@ const WHISPER_NOTES = [
   'Sinh nhật vui vẻ',
   'Sinh nhật đáng iu',
   'Sinh nhật dễ thương',
-  'Sinh nhật vui vẻ',
-  'Sinh nhật đáng iu',
-  'Sinh nhật dễ thương',
-  'Sinh nhật vui vẻ',
+  'Sinh nhật xinh xắn',
+  'Sinh nhật hạnh phúc',
+  'お誕生日おめでとうございます！',
+  'お誕生日おめでとうございます！',
 ];
 
 /**
