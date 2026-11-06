@@ -957,7 +957,7 @@ function drawWrappingPaperFrontAndRibbon(ctx, cx, cy, scale, time) {
   ctx.fillStyle = '#B83B5E';
   ctx.font = 'italic 600 10px Georgia, serif';
   ctx.textAlign = 'center';
-  ctx.fillText('20 • 10', 0, 16);
+  ctx.fillText('07 • 11', 0, 16);
   ctx.restore();
 
   ctx.restore(); // end ribbon waist
