@@ -3,9 +3,9 @@
 
   const STORAGE_KEY = 'flower.greeting.20-10.v1';
   const defaultGreeting = {
-    recipient: 'Chủ phòng 502',
-    message: 'Chúc Vân Anh sinh nhật vui vẻ, tuổi mới nhiều niềm vui và luôn xinh đẹp.\n\nVừa tuổi mới cũng là lúc bắt đầu công việc mới, chúc cậu luôn tự tin và thành công nhá.',
-    sender: 'NTT'
+    recipient: '...',
+    message: 'màu khác như đã hứa',
+    sender: '...'
   };
   const dialog = document.getElementById('greetingCard');
   const openButton = document.getElementById('openCard');

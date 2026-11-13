@@ -22,46 +22,95 @@ function rgbaStr(hex, alpha = 1) {
 /**
  * Artisanal luxury florist rose color palettes
  */
+// const ROSE_PALETTES = {
+//   sweetBlush: {
+//     deepCore: '#B8335A',
+//     innerShadow: '#DC5B80',
+//     midBelly: '#F49AB3',
+//     outerBlush: '#FCD5E0',
+//     lipHighlight: '#FFF6F8',
+//     creviceShadow: 'rgba(122, 28, 56, 0.28)'
+//   },
+//   pastelPink: {
+//     deepCore: '#C44569',
+//     innerShadow: '#E37393',
+//     midBelly: '#F8B1C5',
+//     outerBlush: '#FDE4EC',
+//     lipHighlight: '#FFF9FB',
+//     creviceShadow: 'rgba(135, 38, 66, 0.25)'
+//   },
+//   creamPeach: {
+//     deepCore: '#C85A52',
+//     innerShadow: '#E5857B',
+//     midBelly: '#F7BBA9',
+//     outerBlush: '#FDE9DF',
+//     lipHighlight: '#FFFDFB',
+//     creviceShadow: 'rgba(138, 52, 45, 0.24)'
+//   },
+//   pearlVintage: {
+//     deepCore: '#9E3B56',
+//     innerShadow: '#C7637D',
+//     midBelly: '#E8A3B5',
+//     outerBlush: '#F9DCE4',
+//     lipHighlight: '#FFF8FA',
+//     creviceShadow: 'rgba(105, 30, 52, 0.26)'
+//   },
+//   berryRomance: {
+//     deepCore: '#8E1E42',
+//     innerShadow: '#BA3860',
+//     midBelly: '#E27496',
+//     outerBlush: '#F8BDCE',
+//     lipHighlight: '#FFF0F5',
+//     creviceShadow: 'rgba(92, 16, 40, 0.32)'
+//   }
+// };
+
 const ROSE_PALETTES = {
   sweetBlush: {
-    deepCore: '#B8335A',
-    innerShadow: '#DC5B80',
-    midBelly: '#F49AB3',
-    outerBlush: '#FCD5E0',
+    deepCore: '#164E8A',
+    innerShadow: '#2878B8',
+    midBelly: '#78B9E8',
+    outerBlush: '#CDEAFF',
     lipHighlight: '#FFF6F8',
-    creviceShadow: 'rgba(122, 28, 56, 0.28)'
+    creviceShadow: 'rgba(20, 50, 100, 0.28)'
   },
   pastelPink: {
-    deepCore: '#C44569',
-    innerShadow: '#E37393',
-    midBelly: '#F8B1C5',
-    outerBlush: '#FDE4EC',
-    lipHighlight: '#FFF9FB',
-    creviceShadow: 'rgba(135, 38, 66, 0.25)'
+    deepCore: '#087E8B',
+    innerShadow: '#32B6C2',
+    midBelly: '#8BE0E5',
+    outerBlush: '#D5F7F5',
+    lipHighlight: '#F8FFFF',
+    creviceShadow: 'rgba(5, 75, 85, 0.25)'
   },
   creamPeach: {
-    deepCore: '#C85A52',
-    innerShadow: '#E5857B',
-    midBelly: '#F7BBA9',
-    outerBlush: '#FDE9DF',
+    deepCore: '#38805B',
+    innerShadow: '#6CB58A',
+    midBelly: '#B1DDBA',
+    outerBlush: '#E5F4DF',
     lipHighlight: '#FFFDFB',
-    creviceShadow: 'rgba(138, 52, 45, 0.24)'
+    creviceShadow: 'rgba(35, 85, 55, 0.24)'
   },
   pearlVintage: {
-    deepCore: '#9E3B56',
-    innerShadow: '#C7637D',
-    midBelly: '#E8A3B5',
-    outerBlush: '#F9DCE4',
-    lipHighlight: '#FFF8FA',
-    creviceShadow: 'rgba(105, 30, 52, 0.26)'
+    // deepCore: '#594A9B',
+    // innerShadow: '#8979C8',
+    // midBelly: '#BDB2E8',
+    // outerBlush: '#EAE4FA',
+    // lipHighlight: '#FFF8FA',
+    // creviceShadow: 'rgba(65, 40, 110, 0.26)'
+    deepCore: '#087E8B',
+    innerShadow: '#32B6C2',
+    midBelly: '#8BE0E5',
+    outerBlush: '#D5F7F5',
+    lipHighlight: '#F8FFFF',
+    creviceShadow: 'rgba(5, 75, 85, 0.25)'
   },
   berryRomance: {
-    deepCore: '#8E1E42',
-    innerShadow: '#BA3860',
-    midBelly: '#E27496',
-    outerBlush: '#F8BDCE',
+    deepCore: '#176B72',
+    innerShadow: '#399DA0',
+    midBelly: '#83C9C5',
+    outerBlush: '#D0ECE7',
     lipHighlight: '#FFF0F5',
-    creviceShadow: 'rgba(92, 16, 40, 0.32)'
+    creviceShadow: 'rgba(15, 65, 70, 0.32)'
   }
 };
 
@@ -69,14 +118,23 @@ const ROSE_PALETTES = {
  * Friendly, cheerful, non-cheesy 20/10 wishes displayed when roses bloom
  */
 
+// const WHISPER_NOTES = [
+//   'Sinh nhật vui vẻ',
+//   'Sinh nhật đáng iu',
+//   'Sinh nhật dễ thương',
+//   'Sinh nhật xinh xắn',
+//   'Sinh nhật hạnh phúc',
+//   'お誕生日おめでとうございます！',
+//   'お誕生日おめでとうございます！',
+// ];
 const WHISPER_NOTES = [
-  'Sinh nhật vui vẻ',
-  'Sinh nhật đáng iu',
-  'Sinh nhật dễ thương',
-  'Sinh nhật xinh xắn',
-  'Sinh nhật hạnh phúc',
-  'お誕生日おめでとうございます！',
-  'お誕生日おめでとうございます！',
+  '...',
+  '...',
+  '...',
+  '...',
+  '...',
+  '...',
+  '...',
 ];
 
 /**
@@ -596,14 +654,14 @@ function createBabyBreathClusterSprite(seed = 1) {
       const py = Math.sin(pa) * (pt.r * 0.58);
       ctx.beginPath();
       ctx.arc(px, py, pt.r * 0.52, 0, Math.PI * 2);
-      ctx.fillStyle = pt.isPink ? '#FCE0E8' : '#FFFDFB';
+      ctx.fillStyle = pt.isPink ? '#e0f3fc' : '#fbffff';
       ctx.fill();
     }
 
     // Tiny warm center
     ctx.beginPath();
     ctx.arc(0, 0, pt.r * 0.28, 0, Math.PI * 2);
-    ctx.fillStyle = pt.isPink ? '#D96B8A' : '#F3DCA2';
+    ctx.fillStyle = pt.isPink ? '#78B9E8' : '#78B9E8';
     ctx.fill();
     ctx.restore();
   });
@@ -621,9 +679,9 @@ function drawWrappingPaperBack(ctx, cx, cy, scale) {
 
   // Soft ambient drop shadow behind the entire wrapped bouquet
   const bgShadow = ctx.createRadialGradient(0, 20, 40, 0, 45, 295);
-  bgShadow.addColorStop(0, 'rgba(115, 50, 70, 0.22)');
-  bgShadow.addColorStop(0.65, 'rgba(135, 65, 85, 0.08)');
-  bgShadow.addColorStop(1, 'rgba(135, 65, 85, 0)');
+  bgShadow.addColorStop(0, 'rgba(50, 101, 115, 0.22)');
+  bgShadow.addColorStop(0.65, 'rgba(65, 103, 135, 0.08)');
+  bgShadow.addColorStop(1, 'rgba(65, 112, 135, 0)');
   ctx.fillStyle = bgShadow;
   ctx.beginPath();
   ctx.arc(0, 40, 295, 0, Math.PI * 2);
@@ -660,7 +718,7 @@ function drawWrappingPaperBack(ctx, cx, cy, scale) {
     ctx.restore();
   }
 
-  // 1. Center-Back Tall Crown Sheet (Warm Alabaster Cream)
+  // 1. Center-Back Tall Crown Sheet (Cool Frosted Blue)
   drawPaperSheet(
     [
       { x: 0, y: 150 },
@@ -669,11 +727,11 @@ function drawWrappingPaperBack(ctx, cx, cy, scale) {
       { cp1x: 20, cp1y: -252, cp2x: 60, cp2y: -278, x: 115, y: -245 },
       { cp1x: 185, cp1y: -175, cp2x: 140, cp2y: 40, x: 0, y: 150 }
     ],
-    ['#FFFDFB', '#FBF2EE', '#F2E0DC'],
-    'rgba(218, 175, 165, 0.55)'
+    ['#F8FFFF', '#E5F4FA', '#CDE5F0'],
+    'rgba(120, 185, 232, 0.45)'
   );
 
-  // 2. Left Wide Wing Sheet (Soft Korean Dusty Blush Matte Paper)
+  // 2. Left Wide Wing Sheet (Soft Ocean Blue Matte Paper)
   drawPaperSheet(
     [
       { x: -10, y: 165 },
@@ -681,11 +739,11 @@ function drawWrappingPaperBack(ctx, cx, cy, scale) {
       { cp1x: -212, cp1y: -215, cp2x: -145, cp2y: -220, x: -85, y: -195 },
       { cp1x: -30, cp1y: -165, cp2x: -10, cp2y: 40, x: -10, y: 165 }
     ],
-    ['#FDF0F3', '#F7DCE2', '#EBC4CE'],
-    'rgba(225, 168, 182, 0.6)'
+    ['#EAF7FF', '#CDEAFF', '#A9D5ED'],
+    'rgba(75, 145, 195, 0.45)'
   );
 
-  // 3. Right Wide Wing Sheet (Soft Korean Dusty Blush Matte Paper)
+  // 3. Right Wide Wing Sheet (Soft Ocean Blue Matte Paper)
   drawPaperSheet(
     [
       { x: 10, y: 165 },
@@ -693,8 +751,8 @@ function drawWrappingPaperBack(ctx, cx, cy, scale) {
       { cp1x: 212, cp1y: -215, cp2x: 145, cp2y: -220, x: 85, y: -195 },
       { cp1x: 30, cp1y: -165, cp2x: 10, cp2y: 40, x: 10, y: 165 }
     ],
-    ['#FDF0F3', '#F7DCE2', '#EBC4CE'],
-    'rgba(225, 168, 182, 0.6)'
+    ['#EAF7FF', '#CDEAFF', '#A9D5ED'],
+    'rgba(75, 145, 195, 0.45)'
   );
 
   // 4. Inner Crinkled Frosted Silk Tissue Collar
@@ -706,8 +764,12 @@ function drawWrappingPaperBack(ctx, cx, cy, scale) {
       { cp1x: 55, cp1y: -205, cp2x: 115, cp2y: -225, x: 165, y: -182 },
       { cp1x: 225, cp1y: -120, cp2x: 180, cp2y: 30, x: 0, y: 130 }
     ],
-    ['rgba(255, 255, 255, 0.92)', 'rgba(255, 248, 250, 0.85)', 'rgba(248, 232, 236, 0.8)'],
-    'rgba(255, 255, 255, 0.9)'
+    [
+      'rgba(248, 255, 255, 0.92)',
+      'rgba(229, 246, 255, 0.85)',
+      'rgba(205, 234, 255, 0.8)'
+    ],
+    'rgba(220, 245, 255, 0.9)'
   );
 
   // 5. Deep Botanical Shadow Bed inside the paper cone so roses sit deeply nestled
@@ -763,9 +825,9 @@ function drawWrappingPaperFrontAndRibbon(ctx, cx, cy, scale, time) {
   ctx.closePath();
 
   const skirtGrad = ctx.createLinearGradient(0, waistY, 0, waistY + 138);
-  skirtGrad.addColorStop(0, '#E9C2CC');
-  skirtGrad.addColorStop(0.45, '#F7DFE5');
-  skirtGrad.addColorStop(1, '#FFF8FA');
+  skirtGrad.addColorStop(0, '#A9D5ED');
+  skirtGrad.addColorStop(0.45, '#DCEFFC');
+  skirtGrad.addColorStop(1, '#F8FFFF');
   ctx.fillStyle = skirtGrad;
   ctx.fill();
   ctx.restore();
@@ -786,45 +848,45 @@ function drawWrappingPaperFrontAndRibbon(ctx, cx, cy, scale, time) {
   ctx.closePath();
 
   const leftFoldGrad = ctx.createLinearGradient(-195, 0, 30, waistY + 110);
-  leftFoldGrad.addColorStop(0, '#FFFDFB');
-  leftFoldGrad.addColorStop(0.5, '#FCEBEF');
-  leftFoldGrad.addColorStop(1, '#F2CED7');
-  ctx.fillStyle = leftFoldGrad;
-  ctx.fill();
+leftFoldGrad.addColorStop(0, '#F8FFFF');
+leftFoldGrad.addColorStop(0.5, '#E5F4FA');
+leftFoldGrad.addColorStop(1, '#CDE5F0');
+ctx.fillStyle = leftFoldGrad;
+ctx.fill();
 
-  ctx.strokeStyle = 'rgba(220, 165, 180, 0.65)';
-  ctx.lineWidth = 1.3;
-  ctx.stroke();
-  ctx.restore();
+ctx.strokeStyle = 'rgba(120, 185, 210, 0.65)';
+ctx.lineWidth = 1.3;
+ctx.stroke();
+ctx.restore();
 
-  // 4. Right Front Embracing Paper Fold (Overlapping the left fold gracefully)
-  ctx.save();
-  ctx.shadowColor = 'rgba(95, 38, 56, 0.18)';
-  ctx.shadowBlur = 16;
-  ctx.shadowOffsetX = -3;
-  ctx.shadowOffsetY = 5;
+// 4. Right Front Embracing Paper Fold (Overlapping the left fold gracefully)
+ctx.save();
+ctx.shadowColor = 'rgba(30, 75, 105, 0.18)';
+ctx.shadowBlur = 16;
+ctx.shadowOffsetX = -3;
+ctx.shadowOffsetY = 5;
 
-  ctx.beginPath();
-  ctx.moveTo(195, -18);
-  ctx.bezierCurveTo(215, 55, 135, 118, 42, waistY + 2);
-  ctx.bezierCurveTo(68, waistY + 54, 84, waistY + 102, 58, waistY + 128);
-  ctx.bezierCurveTo(10, waistY + 135, -24, waistY + 120, -34, waistY + 102);
-  ctx.bezierCurveTo(-18, waistY + 50, -12, waistY + 12, -22, waistY - 12);
-  ctx.bezierCurveTo(45, 88, 128, 60, 195, -18);
-  ctx.closePath();
+ctx.beginPath();
+ctx.moveTo(195, -18);
+ctx.bezierCurveTo(215, 55, 135, 118, 42, waistY + 2);
+ctx.bezierCurveTo(68, waistY + 54, 84, waistY + 102, 58, waistY + 128);
+ctx.bezierCurveTo(10, waistY + 135, -24, waistY + 120, -34, waistY + 102);
+ctx.bezierCurveTo(-18, waistY + 50, -12, waistY + 12, -22, waistY - 12);
+ctx.bezierCurveTo(45, 88, 128, 60, 195, -18);
+ctx.closePath();
 
-  const rightFoldGrad = ctx.createLinearGradient(195, 0, -40, waistY + 120);
-  rightFoldGrad.addColorStop(0, '#FFF9FA');
-  rightFoldGrad.addColorStop(0.45, '#F9E0E6');
-  rightFoldGrad.addColorStop(1, '#EFC2CE');
-  ctx.fillStyle = rightFoldGrad;
-  ctx.fill();
+const rightFoldGrad = ctx.createLinearGradient(195, 0, -40, waistY + 120);
+rightFoldGrad.addColorStop(0, '#F8FFFF');
+rightFoldGrad.addColorStop(0.45, '#DCEFFC');
+rightFoldGrad.addColorStop(1, '#A9D5ED');
+ctx.fillStyle = rightFoldGrad;
+ctx.fill();
 
-  // Subtle rose-gold decorative stripe near edge of Korean wrapping paper
-  ctx.strokeStyle = 'rgba(212, 155, 170, 0.72)';
-  ctx.lineWidth = 1.4;
-  ctx.stroke();
-  ctx.restore();
+// Subtle icy-blue decorative stripe near edge of Korean wrapping paper
+ctx.strokeStyle = 'rgba(100, 165, 205, 0.72)';
+ctx.lineWidth = 1.4;
+ctx.stroke();
+ctx.restore();
 
   // 5. LUXURY DOUBLE-LOOP SILK SATIN RIBBON & FLOWING TAILS
   const breeze = Math.sin(time * 1.8) * 6;
@@ -838,13 +900,18 @@ function drawWrappingPaperFrontAndRibbon(ctx, cx, cy, scale, time) {
   ctx.shadowBlur = 10;
   ctx.shadowOffsetY = 4;
 
+  // const ribbonBandGrad = ctx.createLinearGradient(-46, 0, 46, 0);
+  // ribbonBandGrad.addColorStop(0, '#B5385A');
+  // ribbonBandGrad.addColorStop(0.3, '#E26D8D');
+  // ribbonBandGrad.addColorStop(0.5, '#F79BB4'); // satin sheen
+  // ribbonBandGrad.addColorStop(0.75, '#D95B7D');
+  // ribbonBandGrad.addColorStop(1, '#A82E50');
   const ribbonBandGrad = ctx.createLinearGradient(-46, 0, 46, 0);
-  ribbonBandGrad.addColorStop(0, '#B5385A');
-  ribbonBandGrad.addColorStop(0.3, '#E26D8D');
-  ribbonBandGrad.addColorStop(0.5, '#F79BB4'); // satin sheen
-  ribbonBandGrad.addColorStop(0.75, '#D95B7D');
-  ribbonBandGrad.addColorStop(1, '#A82E50');
-
+  ribbonBandGrad.addColorStop(0, '#164E8A');
+  ribbonBandGrad.addColorStop(0.3, '#2878B8');
+  ribbonBandGrad.addColorStop(0.5, '#CDEAFF'); // satin sheen
+  ribbonBandGrad.addColorStop(0.75, '#32B6C2');
+  ribbonBandGrad.addColorStop(1, '#087E8B');
   ctx.fillStyle = ribbonBandGrad;
   ctx.beginPath();
   ctx.roundRect(-45, -11, 90, 22, 8);
@@ -858,9 +925,9 @@ function drawWrappingPaperFrontAndRibbon(ctx, cx, cy, scale, time) {
   ctx.bezierCurveTo(-46 + breeze, 88, -20, 44, 4, 8);
   ctx.closePath();
   const tailGradL = ctx.createLinearGradient(-10, 8, -50, 140);
-  tailGradL.addColorStop(0, '#BA3B5E');
-  tailGradL.addColorStop(0.45, '#E87A98');
-  tailGradL.addColorStop(1, '#C94A6D');
+  tailGradL.addColorStop(0, '#164E8A');
+  tailGradL.addColorStop(0.45, '#78B9E8');
+  tailGradL.addColorStop(1, '#2878B8');
   ctx.fillStyle = tailGradL;
   ctx.fill();
 
@@ -872,9 +939,9 @@ function drawWrappingPaperFrontAndRibbon(ctx, cx, cy, scale, time) {
   ctx.bezierCurveTo(50 + breeze2, 92, 22, 46, -4, 8);
   ctx.closePath();
   const tailGradR = ctx.createLinearGradient(10, 8, 55, 145);
-  tailGradR.addColorStop(0, '#B8395B');
-  tailGradR.addColorStop(0.5, '#EC829F');
-  tailGradR.addColorStop(1, '#C44568');
+  tailGradR.addColorStop(0, '#087E8B');
+  tailGradR.addColorStop(0.5, '#8BE0E5');
+  tailGradR.addColorStop(1, '#32B6C2');
   ctx.fillStyle = tailGradR;
   ctx.fill();
 
@@ -885,9 +952,9 @@ function drawWrappingPaperFrontAndRibbon(ctx, cx, cy, scale, time) {
   ctx.bezierCurveTo(-65, 34, -28, 18, -4, 4);
   ctx.closePath();
   const loopGradL = ctx.createLinearGradient(-85, -15, -5, 10);
-  loopGradL.addColorStop(0, '#C44568');
-  loopGradL.addColorStop(0.45, '#F6A2B8'); // satin highlight
-  loopGradL.addColorStop(1, '#A82E50');
+  loopGradL.addColorStop(0, '#2878B8');
+  loopGradL.addColorStop(0.45, '#CDEAFF'); // satin highlight
+  loopGradL.addColorStop(1, '#164E8A');
   ctx.fillStyle = loopGradL;
   ctx.fill();
 
@@ -898,9 +965,9 @@ function drawWrappingPaperFrontAndRibbon(ctx, cx, cy, scale, time) {
   ctx.bezierCurveTo(65, 34, 28, 18, 4, 4);
   ctx.closePath();
   const loopGradR = ctx.createLinearGradient(85, -15, 5, 10);
-  loopGradR.addColorStop(0, '#C44568');
-  loopGradR.addColorStop(0.45, '#F6A2B8');
-  loopGradR.addColorStop(1, '#A82E50');
+  loopGradR.addColorStop(0, '#2878B8');
+  loopGradR.addColorStop(0.45, '#CDEAFF');
+  loopGradR.addColorStop(1, '#164E8A');
   ctx.fillStyle = loopGradR;
   ctx.fill();
 
@@ -910,7 +977,7 @@ function drawWrappingPaperFrontAndRibbon(ctx, cx, cy, scale, time) {
   ctx.bezierCurveTo(-48, 8, -72, 28, -54, 42);
   ctx.bezierCurveTo(-38, 52, -15, 25, -3, 6);
   ctx.closePath();
-  ctx.fillStyle = '#D65A7C';
+  ctx.fillStyle = '#32B6C2';
   ctx.fill();
 
   ctx.beginPath();
@@ -918,14 +985,14 @@ function drawWrappingPaperFrontAndRibbon(ctx, cx, cy, scale, time) {
   ctx.bezierCurveTo(48, 8, 72, 28, 54, 42);
   ctx.bezierCurveTo(38, 52, 15, 25, 3, 6);
   ctx.closePath();
-  ctx.fillStyle = '#D65A7C';
+  ctx.fillStyle = '#32B6C2';
   ctx.fill();
 
   // Center Satin Ribbon Knot
   const knotGrad = ctx.createRadialGradient(-3, -3, 2, 0, 0, 16);
-  knotGrad.addColorStop(0, '#FADCE4');
-  knotGrad.addColorStop(0.45, '#E46C8C');
-  knotGrad.addColorStop(1, '#9E2445');
+  knotGrad.addColorStop(0, '#F8FFFF');
+  knotGrad.addColorStop(0.45, '#32B6C2');
+  knotGrad.addColorStop(1, '#087E8B');
   ctx.fillStyle = knotGrad;
   ctx.beginPath();
   ctx.roundRect(-13, -12, 26, 24, 9);
@@ -946,18 +1013,18 @@ function drawWrappingPaperFrontAndRibbon(ctx, cx, cy, scale, time) {
 
   // Tag card
   ctx.translate(18, 34);
-  ctx.fillStyle = '#FFFDFB';
-  ctx.strokeStyle = '#E2B8C4';
+  ctx.fillStyle = '#F8FFFF';
+  ctx.strokeStyle = '#78B9E8';
   ctx.lineWidth = 1;
   ctx.beginPath();
   ctx.roundRect(-22, 0, 44, 26, 6);
   ctx.fill();
   ctx.stroke();
 
-  ctx.fillStyle = '#B83B5E';
+  ctx.fillStyle = '#164E8A';
   ctx.font = 'italic 600 10px Georgia, serif';
   ctx.textAlign = 'center';
-  ctx.fillText('07 • 11', 0, 16);
+  ctx.fillText('14 • 11', 0, 16);
   ctx.restore();
 
   ctx.restore(); // end ribbon waist
@@ -1185,10 +1252,10 @@ const burstSparkles = [];
 
 function createPetalParticle(customX, customY, isBurst = false) {
   const colors = [
-    ['#FFF0F4', '#F7A8BE'],
-    ['#FFE5EC', '#E87A99'],
-    ['#FFF8F5', '#F9C5BD'],
-    ['#FCE4EC', '#D95B7D']
+    ['#F8FFFF', '#CDEAFF'], // trắng xanh băng
+    ['#D5F7F5', '#8BE0E5'], // cyan pastel
+    ['#E5F4DF', '#B1DDBA'], // xanh mint
+    ['#DCEBFA', '#78B9E8']  // xanh biển nhạt
   ];
   const pair = colors[Math.floor(Math.random() * colors.length)];
   return {
@@ -1235,7 +1302,7 @@ function spawnPetalBurst(screenX, screenY, count = 8) {
       vy: Math.sin(angle) * speed - 0.6,
       r: 1.8 + Math.random() * 2.5,
       alpha: 1,
-      color: i % 2 === 0 ? '#FFF6F8' : '#F48FB1'
+      color: i % 2 === 0 ? '#FFF6F8' : '#78B9E8'
     });
   }
 }
@@ -1306,7 +1373,7 @@ function renderAmbientPetals(time) {
     aCtx.save();
     aCtx.globalAlpha = s.alpha;
     aCtx.fillStyle = s.color;
-    aCtx.shadowColor = '#F48FB1';
+    aCtx.shadowColor = '#9ac8e8';
     aCtx.shadowBlur = 8;
     aCtx.beginPath();
     aCtx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
